@@ -22,7 +22,8 @@ Certifique-se de ter as seguintes bibliotecas instaladas:
 - datetime
 
 # Uso
-1. Carregar os Dados
+1. Carregar os dados
+   
 O projeto requer alguns arquivos CSV com dados de pedidos, clientes, pagamentos e itens. Coloque os seguintes arquivos no mesmo diretório do código:
 
 - olist_orders_dataset.csv - Contém os pedidos dos clientes.
@@ -33,6 +34,7 @@ O projeto requer alguns arquivos CSV com dados de pedidos, clientes, pagamentos 
 Fonte: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download
 
 2. Rodar o script
+   
 O script fará as seguintes etapas:
 - Carregará os dados.
 - Preparará os dados e criará a tabela RFM.
@@ -40,10 +42,11 @@ O script fará as seguintes etapas:
 - Realizará a segmentação utilizando o K-Means.
 
 3. Saída
+   
 O script irá gerar gráficos de distribuição para as variáveis de Recência, Frequência e Monetário, além de exibir a segmentação dos clientes em diferentes clusters.
 
 Exemplo de saída:
-- Cluster 0: Clientes Dormindo: Ofertas de reativação, cupons de desconto
-- Cluster 1: Clientes Frequentes, Baixo Gasto: Promoções de upsell, descontos progressivos
+- Cluster 0: Clientes dormentes: Ofertas de reativação, cupons de desconto
+- Cluster 1: Clientes frequentes, baixo gasto: Promoções de upsell, descontos progressivos
 - Cluster 2: Clientes VIP: Benefícios exclusivos, programa de fidelidade premium
-- Cluster 3: Novos Clientes ou Clientes Ocasionalmente Ativos: Incentivos para engajamento, descontos em próximas compras
+- Cluster 3: Novos clientes ou clientes ocasionalmente ativos: Incentivos para engajamento, descontos em próximas compras

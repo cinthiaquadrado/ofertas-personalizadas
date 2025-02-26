@@ -30,6 +30,8 @@ O projeto requer alguns arquivos CSV com dados de pedidos, clientes, pagamentos 
 - olist_order_payments_dataset.csv - Contém os dados de pagamentos.
 - olist_order_items_dataset.csv - Contém os itens dos pedidos.
 
+Fonte: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download
+
 2. Rodar o script
 O script fará as seguintes etapas:
 - Carregará os dados.

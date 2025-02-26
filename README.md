@@ -1,4 +1,4 @@
-# Personalização de Ofertas
+# Personalização de ofertas para e-commerce
 
 ## 1) Problema
 O objetivo deste projeto é personalizar ofertas para clientes com base em seus padrões de compra, utilizando dados históricos de consumo. Isso visa melhorar a experiência do usuário, aumentar a taxa de conversão e otimizar o direcionamento das campanhas promocionais.

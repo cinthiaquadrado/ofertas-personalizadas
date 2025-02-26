@@ -14,23 +14,23 @@ Utilizando essas métricas, criamos uma tabela RFM, em seguida aplicamos o algor
 # Requisitos
 Certifique-se de ter as seguintes bibliotecas instaladas:
 
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-datetime
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- datetime
 
 # Uso
 1. Carregar os Dados
 O projeto requer alguns arquivos CSV com dados de pedidos, clientes, pagamentos e itens. Coloque os seguintes arquivos no mesmo diretório do código:
 
-olist_orders_dataset.csv - Contém os pedidos dos clientes.
-olist_customers_dataset.csv - Contém os dados dos clientes.
-olist_order_payments_dataset.csv - Contém os dados de pagamentos.
-olist_order_items_dataset.csv - Contém os itens dos pedidos.
+- olist_orders_dataset.csv - Contém os pedidos dos clientes.
+- olist_customers_dataset.csv - Contém os dados dos clientes.
+- olist_order_payments_dataset.csv - Contém os dados de pagamentos.
+- olist_order_items_dataset.csv - Contém os itens dos pedidos.
 
-2. Rodar o Script
+2. Rodar o script
 O script fará as seguintes etapas:
 - Carregará os dados.
 - Preparará os dados e criará a tabela RFM.
@@ -40,7 +40,7 @@ O script fará as seguintes etapas:
 3. Saída
 O script irá gerar gráficos de distribuição para as variáveis de Recência, Frequência e Monetário, além de exibir a segmentação dos clientes em diferentes clusters.
 
-Exemplo de Saída:
+Exemplo de saída:
 - Cluster 0: Clientes Dormindo: Ofertas de reativação, cupons de desconto
 - Cluster 1: Clientes Frequentes, Baixo Gasto: Promoções de upsell, descontos progressivos
 - Cluster 2: Clientes VIP: Benefícios exclusivos, programa de fidelidade premium
